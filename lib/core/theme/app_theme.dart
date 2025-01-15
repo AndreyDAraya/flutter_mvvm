@@ -3,11 +3,11 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   // Vintage Colors
-  static const primaryColor = Color(0xFF2C1810);
-  static const secondaryColor = Color(0xFF8B4513);
+  static const primaryColor = Color.fromARGB(255, 19, 16, 44);
+  static const secondaryColor = Color.fromARGB(255, 27, 19, 139);
   static const backgroundColor = Color.fromARGB(255, 245, 245, 245);
-  static const darkBackgroundColor = Color(0xFF1A1A1A);
-  static const accentColor = Color(0xFFCD853F);
+  static const darkBackgroundColor = Color.fromARGB(255, 26, 26, 26);
+  static const accentColor = Color.fromARGB(255, 65, 63, 205);
 
   static ThemeData get lightTheme {
     return ThemeData(
